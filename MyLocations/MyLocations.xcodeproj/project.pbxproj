@@ -10,6 +10,13 @@
 		83797DBA178C836A00F2FB78 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83797DB9178C836A00F2FB78 /* FacebookSDK.framework */; };
 		83797DBD178C837300F2FB78 /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 83797DBB178C837300F2FB78 /* FacebookSDKResources.bundle */; };
 		83797DBE178C837300F2FB78 /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 83797DBC178C837300F2FB78 /* FBUserSettingsViewResources.bundle */; };
+		83797DC3178C883800F2FB78 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83797DC2178C883800F2FB78 /* Accounts.framework */; };
+		83797DC5178C883E00F2FB78 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83797DC4178C883E00F2FB78 /* Social.framework */; };
+		83797DC7178C884400F2FB78 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 83797DC6178C884400F2FB78 /* libsqlite3.dylib */; };
+		83797DC9178C88A700F2FB78 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83797DC8178C88A700F2FB78 /* Security.framework */; };
+		83797DD1178C8BED00F2FB78 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83797DD0178C8BED00F2FB78 /* AdSupport.framework */; };
+		83797DD4178C9E8B00F2FB78 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83797DD3178C9E8B00F2FB78 /* ProfileViewController.m */; };
+		83797DD7178C9F5E00F2FB78 /* LukesFBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83797DD6178C9F5E00F2FB78 /* LukesFBViewController.m */; };
 		83888A4F178B6A0E00A9D8C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83888A4E178B6A0E00A9D8C7 /* Foundation.framework */; };
 		83888A51178B6A0E00A9D8C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83888A50178B6A0E00A9D8C7 /* CoreGraphics.framework */; };
 		83888A53178B6A0E00A9D8C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83888A52178B6A0E00A9D8C7 /* UIKit.framework */; };
@@ -43,6 +50,15 @@
 		83797DB9178C836A00F2FB78 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		83797DBB178C837300F2FB78 /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKResources.bundle; path = ../../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle; sourceTree = "<group>"; };
 		83797DBC178C837300F2FB78 /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FBUserSettingsViewResources.bundle; path = ../../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
+		83797DC2178C883800F2FB78 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		83797DC4178C883E00F2FB78 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		83797DC6178C884400F2FB78 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		83797DC8178C88A700F2FB78 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		83797DD0178C8BED00F2FB78 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		83797DD2178C9E8B00F2FB78 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		83797DD3178C9E8B00F2FB78 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		83797DD5178C9F5E00F2FB78 /* LukesFBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LukesFBViewController.h; sourceTree = "<group>"; };
+		83797DD6178C9F5E00F2FB78 /* LukesFBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LukesFBViewController.m; sourceTree = "<group>"; };
 		83888A4B178B6A0E00A9D8C7 /* MyLocations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLocations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83888A4E178B6A0E00A9D8C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		83888A50178B6A0E00A9D8C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -72,6 +88,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83797DD1178C8BED00F2FB78 /* AdSupport.framework in Frameworks */,
+				83797DC9178C88A700F2FB78 /* Security.framework in Frameworks */,
+				83797DC7178C884400F2FB78 /* libsqlite3.dylib in Frameworks */,
+				83797DC5178C883E00F2FB78 /* Social.framework in Frameworks */,
+				83797DC3178C883800F2FB78 /* Accounts.framework in Frameworks */,
 				83888A8D178B718F00A9D8C7 /* CoreLocation.framework in Frameworks */,
 				83797DBA178C836A00F2FB78 /* FacebookSDK.framework in Frameworks */,
 				83888A51178B6A0E00A9D8C7 /* CoreGraphics.framework in Frameworks */,
@@ -115,6 +136,11 @@
 		83888A4D178B6A0E00A9D8C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				83797DD0178C8BED00F2FB78 /* AdSupport.framework */,
+				83797DC8178C88A700F2FB78 /* Security.framework */,
+				83797DC6178C884400F2FB78 /* libsqlite3.dylib */,
+				83797DC4178C883E00F2FB78 /* Social.framework */,
+				83797DC2178C883800F2FB78 /* Accounts.framework */,
 				83797DBB178C837300F2FB78 /* FacebookSDKResources.bundle */,
 				83797DBC178C837300F2FB78 /* FBUserSettingsViewResources.bundle */,
 				83797DB9178C836A00F2FB78 /* FacebookSDK.framework */,
@@ -137,6 +163,10 @@
 				83888A64178B6A0E00A9D8C7 /* CurrentLocationViewController.m */,
 				83888A66178B6A0E00A9D8C7 /* SecondViewController.h */,
 				83888A67178B6A0E00A9D8C7 /* SecondViewController.m */,
+				83797DD2178C9E8B00F2FB78 /* ProfileViewController.h */,
+				83797DD3178C9E8B00F2FB78 /* ProfileViewController.m */,
+				83797DD5178C9F5E00F2FB78 /* LukesFBViewController.h */,
+				83797DD6178C9F5E00F2FB78 /* LukesFBViewController.m */,
 				83888A69178B6A0E00A9D8C7 /* Images.xcassets */,
 				83888A55178B6A0E00A9D8C7 /* Supporting Files */,
 			);
@@ -274,8 +304,10 @@
 			files = (
 				83888A68178B6A0E00A9D8C7 /* SecondViewController.m in Sources */,
 				83888A5F178B6A0E00A9D8C7 /* AppDelegate.m in Sources */,
+				83797DD7178C9F5E00F2FB78 /* LukesFBViewController.m in Sources */,
 				83888A65178B6A0E00A9D8C7 /* CurrentLocationViewController.m in Sources */,
 				83888A5B178B6A0E00A9D8C7 /* main.m in Sources */,
+				83797DD4178C9E8B00F2FB78 /* ProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +422,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../../../Documents/FacebookSDK",
@@ -407,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../../../Documents/FacebookSDK",
